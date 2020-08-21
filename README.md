@@ -5,7 +5,7 @@
 
 Dynamic event-driven quest system made using Unreal Engine 4 (version 4.25).
 
-![](https://media.giphy.com/media/dX9atUAHKABNkBJGlE/source.gif)
+![Showcase](Images/Showcase.gif)
 
 ## Table of Contents (Optional)
 
