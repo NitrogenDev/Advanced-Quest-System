@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\Advanced-Quest-System\\QuestSystem\\Source\\QuestSystem\\QuestSystem.Build.cs",
+		"D:\\GitHub\\Advanced-Quest-System\\QuestSystem\\Source\\QuestSystem.Target.cs",
+		"D:\\GitHub\\Advanced-Quest-System\\QuestSystem\\Source\\QuestSystemEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}

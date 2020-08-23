@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "QuestSystem",
+			"Path": "D:\\GitHub\\Advanced-Quest-System\\QuestSystem\\Source\\QuestSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QuestSystemEditor",
+			"Path": "D:\\GitHub\\Advanced-Quest-System\\QuestSystem\\Source\\QuestSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
