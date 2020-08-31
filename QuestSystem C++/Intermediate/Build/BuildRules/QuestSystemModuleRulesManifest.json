@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal\\Advanced-Quest-System\\QuestSystem C++\\Source\\QuestSystem\\QuestSystem.Build.cs",
-		"D:\\Unreal\\Advanced-Quest-System\\QuestSystem C++\\Source\\QuestSystem.Target.cs",
-		"D:\\Unreal\\Advanced-Quest-System\\QuestSystem C++\\Source\\QuestSystemEditor.Target.cs"
-	],
-	"EngineVersion": "4.25.3"
-}
