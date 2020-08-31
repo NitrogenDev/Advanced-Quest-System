@@ -1,0 +1,40 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-QuestSystem.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\QuestSystemEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestComponent.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\InteractInterface.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCInterface.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCMaster.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuest.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestSave.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestTriggerMaster.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\GameInstanceBase.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuestHolder.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuestStruct.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestStep.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestStruct.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestSystem.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\ThirdPersonCharacter.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\GameInstanceBase.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\InteractInterface.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCInterface.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCMaster.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuest.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuestHolder.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\NPCQuestStruct.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestComponent.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestSave.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestStep.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestStruct.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestSystem.init.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\QuestTriggerMaster.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\ThirdPersonCharacter.gen.cpp.obj"
+"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\Default.rc2.res"
+/OUT:"D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\UE4Editor-QuestSystem.lib"
+/INCLUDE:IMPLEMENT_MODULE_QuestSystem

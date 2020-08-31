@@ -1,0 +1,6 @@
+D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Development\QuestSystem\Definitions.QuestSystem.h
+D:\Unreal\Advanced-Quest-System\QuestSystem C++\Source\QuestSystem\QuestStep.h
+P:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+P:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+P:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+D:\Unreal\Advanced-Quest-System\QuestSystem C++\Intermediate\Build\Win64\UE4Editor\Inc\QuestSystem\QuestStep.generated.h

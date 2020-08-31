@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "QuestSystem",
+			"Path": "D:\\Unreal\\Advanced-Quest-System\\QuestSystem C++\\Source\\QuestSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QuestSystemEditor",
+			"Path": "D:\\Unreal\\Advanced-Quest-System\\QuestSystem C++\\Source\\QuestSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
