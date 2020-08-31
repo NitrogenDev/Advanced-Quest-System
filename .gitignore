@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+.idea/
 
 # Visual Studio 2015 database file
 *.VC.db
@@ -83,46 +84,3 @@ DerivedDataCache/*
 
 cmake-build-*/
 CMakeLists.txt
-.idea/
-
-# lokale Ordner mit m�glichen Inhalten
-
-/Tell-Me-Your-Secret.iml
-/Plugins/DlgSystem/*
-
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa01_D_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa01_N_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa01_PBR.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa02_D.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa02_N.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa02_PBR.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa03_D_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa03_N_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa03_PBR.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa04_D.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa04_N.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa04_PBR.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_D_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_D_Mat02.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_D_Mat03.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_N_Mat01.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_N_Mat02.uasset
-
-Content/GameAssets/WhiteBay/StanfieldResidence/_importedAssests/SMART-ArchVizPack01/Textures/T_Sofa05_N_Mat03.uasset
