@@ -4,11 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/SaveGame.h"
-#include "QuestSystem/NPCQuestStruct.h"
-#include "QuestSystem/QuestStruct.h"
 #include "QuestSystem/Components/QuestComponent.h"
 #include "QuestSystem/NPCQuestHolder.h"
-
 
 #include "QuestSave.generated.h"
 
@@ -22,18 +19,26 @@ class QUESTSYSTEM_API UQuestSave : public USaveGame
     GENERATED_BODY()
 
 public:
+    static const FString SlotName;
+
     UFUNCTION(BlueprintCallable)
     void SaveQuestComponent(TArray<FQuestStruct> QuestsToSave, const int QuestID, const bool CanChangeQuest);
     UFUNCTION(BlueprintCallable)
-    void SaveNPC(const FString NPCName, TArray<FNPCQuestStruct> Quests);
+    void SaveNPC(const FString NPCName, FNPCQuestHolder Quests);
     UFUNCTION(BlueprintCallable)
-    void LoadNPCQuests(const ANPCQuest* NPCQuest, TArray<FNPCQuestStruct> Quests);
+    void LoadNPCQuests(ANPCQuest* NPCQuest);
     UFUNCTION(BlueprintCallable)
     void LoadQuestComponent(UQuestComponent* QuestComponentRef);
 
 private:
+    UPROPERTY()
     TMap<FString, FNPCQuestHolder> NPCs;
+    UPROPERTY()
     TArray<FQuestStruct>           PlayerQuests;
+    UPROPERTY()
     int32                          CurrentQuestID;
+    UPROPERTY()
     bool                           bCanChangeQuest;
+
+    void Save();
 };

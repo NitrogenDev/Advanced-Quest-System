@@ -1,9 +1,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
 #include "QuestStep.h"
 #include "Engine/DataTable.h"
 #include "QuestStruct.generated.h"
+struct FNPCQuestStruct;
 /**
  * 
  */
@@ -26,4 +28,10 @@ struct FQuestStruct : public FTableRowBase
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     bool bPrimaryQuest = true;
+
+    FQuestStruct();
+
+    explicit FQuestStruct(const FNPCQuestStruct& Quest);
+
+    void Clear();
 };

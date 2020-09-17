@@ -4,6 +4,7 @@
 #include "QuestStep.h"
 #include "Engine/DataTable.h"
 #include "NPCQuestStruct.generated.h"
+struct FQuestStruct;
 /**
 * 
 */
@@ -26,4 +27,8 @@ struct FNPCQuestStruct : public FTableRowBase
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     bool bPrimaryQuest = true;
+
+    FNPCQuestStruct();
+
+    explicit FNPCQuestStruct(const FQuestStruct& QuestStruct);
 };
