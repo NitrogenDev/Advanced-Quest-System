@@ -22,9 +22,9 @@ Dynamic event-driven quest system made using Unreal Engine 4 (version 4.25).
 
 -  [Setup](#setup)
 
--  [Blueprint implementation](#blueprint-implementation)
+	-  [Blueprint implementation](#blueprint-implementation)
 
--  [C++ implementation](#c-implementation)
+	-  [C++ implementation](#c-implementation)
 
 -  [Features](#features)
 
@@ -40,24 +40,20 @@ Dynamic event-driven quest system made using Unreal Engine 4 (version 4.25).
 
 * Unreal Engine 4
 
-  
-
 Clone this repository to your local machine using `https://github.com/NitrogenDev/Advanced-Quest-System-UE4`.
-
-  
 
 Open `QuestSystem.uproject`. If you're prompted for a version, I suggest using **4.25**.
 
-## Blueprint implementation
+### Blueprint implementation
 
 1. Migrate the code from the original project to your project
 2. In your character class, add the `Quest_Component` component
 3. Copy and paste the code and variables related to the quest system from the `ThirdPersonCharacter` class from the original project
 4. Replace all casts to the `ThirdPersonCharacter` class with a cast to your character class.
 
-## C++ implementation
+### C++ implementation
 
-In progress.
+Migration currently in progress.
 
 ## Features
 
