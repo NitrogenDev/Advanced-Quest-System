@@ -7,16 +7,13 @@
 UINTERFACE()
 class QUESTSYSTEM_API UInteractInterface : public UInterface
 {
-    GENERATED_UINTERFACE_BODY()
+    GENERATED_BODY()
 };
 
 class QUESTSYSTEM_API IInteractInterface
 {
-    GENERATED_IINTERFACE_BODY()
-
-    explicit IInteractInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
-
-    virtual void Interact()
-    {
-    };
+    GENERATED_BODY()
+public:
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+    void Interact();
 };

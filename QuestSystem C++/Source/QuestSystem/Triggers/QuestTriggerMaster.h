@@ -10,8 +10,8 @@
 
 #include "QuestTriggerMaster.generated.h"
 
-UCLASS()
-class QUESTSYSTEM_API AQuestTriggerMaster : public AActor
+UCLASS(BlueprintType)
+class QUESTSYSTEM_API AQuestTriggerMaster : public AActor, public IInteractInterface
 {
     GENERATED_BODY()
 
@@ -19,15 +19,20 @@ public:
     // Sets default values for this actor's properties
     AQuestTriggerMaster();
 
+    virtual void BeginPlay() override;
+
     UFUNCTION(BlueprintCallable)
     bool FinishStep();
 
+    FORCEINLINE void SetQuestName(const FString Name) { QuestName = Name; }
+    FORCEINLINE void SetStep(const FQuestStep InStep) { Step = InStep; }
+
 protected:
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(BlueprintReadWrite, SaveGame)
     FString QuestName;
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(BlueprintReadWrite, SaveGame)
     ANPCQuest* OwnerNPC;
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(BlueprintReadWrite, SaveGame)
     FQuestStep Step;
     UPROPERTY(BlueprintReadWrite)
     UQuestComponent* QuestComponent;
