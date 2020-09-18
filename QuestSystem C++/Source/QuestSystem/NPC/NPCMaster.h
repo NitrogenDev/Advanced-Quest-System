@@ -6,7 +6,6 @@
 #include "GameFramework/Pawn.h"
 #include "QuestSystem/Interfaces/InteractInterface.h"
 
-
 #include "NPCMaster.generated.h"
 
 UCLASS()
@@ -16,8 +15,4 @@ class QUESTSYSTEM_API ANPCMaster : public APawn, public IInteractInterface
 public:
 
     explicit ANPCMaster(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
-
-    virtual void Interact() override
-    {
-    };
 };

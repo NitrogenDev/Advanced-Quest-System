@@ -11,5 +11,5 @@ struct FNPCQuestHolder : public FTableRowBase
     GENERATED_BODY()
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    TArray<FNPCQuestStruct> QuestSteps;
+    TArray<FNPCQuestStruct> Quests;
 };
