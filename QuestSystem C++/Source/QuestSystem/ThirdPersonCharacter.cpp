@@ -159,6 +159,5 @@ void AThirdPersonCharacter::AskForQuest(ANPCQuest* NpcQuest)
 // ReSharper disable once CppMemberFunctionMayBeConst
 void AThirdPersonCharacter::AcceptQuest()
 {
-    UE_LOG(LogTemp, Warning, TEXT("Accepted"))
     QuestComponent->AddQuest(QuestNpc->ShiftQuest(), false);
 }

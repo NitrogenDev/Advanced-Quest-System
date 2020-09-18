@@ -21,13 +21,11 @@ void UQuestSave::SaveNPC(const FString NPCName, FNPCQuestHolder Quests)
     FNPCQuestHolder QuestHolder;
     QuestHolder.Quests = Quests.Quests;
     NPCs.Add(NPCName, QuestHolder);
-    UE_LOG(LogTemp, Warning, TEXT("SAVE %d"), QuestHolder.Quests.Num())
     Save();
 }
 
 void UQuestSave::LoadNPCQuests(ANPCQuest* NPCQuest)
 {
-    UE_LOG(LogTemp, Warning, TEXT("Load Quests (%d)"), NPCQuest->GetQuests().Quests.Num())
     if (!NPCs.Num())
         return;
 

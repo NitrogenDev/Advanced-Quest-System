@@ -23,6 +23,8 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = "Event Dispatchers")
     FAcceptQuest OnAcceptQuest;
 
+    
+
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void OpenQuestList(bool bClose);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
