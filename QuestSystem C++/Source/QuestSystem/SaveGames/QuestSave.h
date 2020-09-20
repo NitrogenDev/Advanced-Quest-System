@@ -34,11 +34,11 @@ private:
     UPROPERTY()
     TMap<FString, FNPCQuestHolder> NPCs;
     UPROPERTY()
-    TArray<FQuestStruct>           PlayerQuests;
+    TArray<FQuestStruct> PlayerQuests;
     UPROPERTY()
-    int32                          CurrentQuestID;
+    int32 CurrentQuestID;
     UPROPERTY()
-    bool                           bCanChangeQuest;
+    bool bCanChangeQuest = true;
 
     void Save();
 };

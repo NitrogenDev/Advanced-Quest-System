@@ -59,7 +59,7 @@ void UQuestComponent::AddQuest(const FNPCQuestStruct Quest, const bool bIsLoaded
     OnAddedRemovedQuest.Broadcast();
 
     // notify if is loaded quest
-    if (bIsLoadedQuest)
+    if (!bIsLoadedQuest)
         OnQuestNotification.Broadcast(false, Quest.QuestName);
 
     if (Quest.bPrimaryQuest && bCanChangeQuest)

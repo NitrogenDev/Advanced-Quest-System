@@ -14,7 +14,6 @@ void UQuestInterface::OpenQuestList_Implementation(bool bClose)
 void UQuestInterface::SetPlayer_Implementation(AThirdPersonCharacter* ThirdPersonCharacter)
 {
     Player = ThirdPersonCharacter;
-
     Player->GetQuestComponent()->OnQuestNotification.AddDynamic(this, &UQuestInterface::UpdatePanel);
     Player->GetQuestComponent()->OnStepUpdate.AddDynamic(this, &UQuestInterface::QuestTrackerUpdate);
 }
