@@ -51,10 +51,6 @@ Open `QuestSystem.uproject`. If you're prompted for a version, I suggest using *
 3. Copy and paste the code and variables related to the quest system from the `ThirdPersonCharacter` class from the original project
 4. Replace all casts to the `ThirdPersonCharacter` class with a cast to your character class.
 
-### C++ implementation
-
-Migration currently in progress.
-
 ## Features
 
 * Easy-to-use API, which can easily be expanded further.
